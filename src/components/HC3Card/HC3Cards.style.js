@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const HC3CardWrapper = styled.div`
-    background-color: white;
-    margin: 1rem;
-    border-radius: 12px;
-    height: 15rem;
+  background-color: white;
+  margin: 1rem;
+  border-radius: 12px;
+  height: 15rem;
 
   .HC3CardButtonContainer {
     position: absolute;
@@ -25,15 +25,14 @@ export const HC3CardWrapper = styled.div`
       cursor: pointer;
       z-index: 0;
       opacity: 0;
-      img{
-        height: "20px" 
+      img {
+        height: "20px";
       }
-      p{
+      p {
         margin: 0;
       }
-      
     }
-  
+
     .showButtons {
       opacity: 1;
     }
@@ -47,8 +46,8 @@ export const HC3CardWrapper = styled.div`
     position: relative;
     transition: left 1s;
     cursor: pointer;
-    
-    button{
+
+    button {
       cursor: pointer;
       width: 100px;
       height: 30px;
@@ -61,6 +60,4 @@ export const HC3CardWrapper = styled.div`
     left: 180px;
     transition: none;
   }
-
-
 `;

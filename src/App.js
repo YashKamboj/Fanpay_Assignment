@@ -4,7 +4,7 @@ import AllCards from "./components/AllCards";
 const App = () => {
   return (
     <Layout>
-      <AllCards/>
+      <AllCards />
     </Layout>
   );
 };
