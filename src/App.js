@@ -1,10 +1,10 @@
 import React from "react";
 import Layout from "./layouts/Layout";
-import CardGroup from "./components/CardGroup";
+import AllCards from "./components/AllCards";
 const App = () => {
   return (
     <Layout>
-      <CardGroup/>
+      <AllCards/>
     </Layout>
   );
 };
