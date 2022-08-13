@@ -7,12 +7,12 @@ import HC3Card from "./HC3Card";
 import FetchedData from "../FetchedData";
 
 const AllCards = () => {
-
+    const [HC6Data, setHC6Data] = useState();
     const [HC9Data, setHC9Data] = useState();
 
     useEffect(() => {
         FetchedData().then((data) => {
-
+          setHC6Data(data.HC6Cards);
           setHC9Data(data.HC9Cards);
 
         });
@@ -22,7 +22,7 @@ const AllCards = () => {
         <>
         <HC3Card />
         <HC5Card  />
-        <HC6Card  />
+        <HC6Card data={HC6Data}  />
         <HC9Card data={HC9Data}  />
         <HC1Card  />
           </>
