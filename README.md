@@ -1,5 +1,8 @@
 ## FamPay Frontend Intern Assignment
 
+## Deployed 
+https://62f7f596928db257478fc557--fascinating-crisp-90dd5d.netlify.app/
+
 ## Tech Stack
 <ol>
   <li>ReactJS</li>
