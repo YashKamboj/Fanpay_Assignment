@@ -8,12 +8,22 @@ import FetchedData from "../FetchedData";
 
 const AllCards = () => {
 
+    const [HC9Data, setHC9Data] = useState();
+
+    useEffect(() => {
+        FetchedData().then((data) => {
+
+          setHC9Data(data.HC9Cards);
+
+        });
+      }, []);
+
     return (
         <>
         <HC3Card />
         <HC5Card  />
         <HC6Card  />
-        <HC9Card  />
+        <HC9Card data={HC9Data}  />
         <HC1Card  />
           </>
     )
